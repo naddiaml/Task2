@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.banner {
+    width: 100%;
+    margin: 0;
+}
+
+.banner img {
+    height:  40vh;
+}
+
+.site-name {
+    margin: 40px 0 40px 150px;
+
+    text-align: start;
+}
+
+.section-name {
+    width: 100%;
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+.logo {
+    width: 85px;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+
+section .nav-container, .articles-container {
+    display: inline-block;
+}
+
+.nav-container nav {
+    list-style: none;
+    padding: 0 50px;
+}
+
+.nav-container nav li {
+    max-width: 100px;
+}
+
+.nav-container .current-page a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav-container nav li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.articles-container {
+    width: 50%;
+}
